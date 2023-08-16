@@ -15,9 +15,36 @@
 
 <body>
     <!-- Main Section -->
-    <main>
-        <section>
+    <main class="flex h-[100vh] justify-center items-center">
+        <section class="p-8 h-[90%] w-[90%] bg-teal-300 border border-black">
             <h1 class="text-4xl text-center font-bold">My Text Editor ✌</h1>
+            <div class="border-2 mt-2 border-black">
+                <div class="bg-slate-400 p-4 mt-3 mx-2 border-2 border-black">
+                    <div class="flex justify-between mx-9">
+                        <div class="space-x-4">
+                            <button><i class="fa-solid fa-bold" style="color: #000000;"></i></button>
+                            <button><i class="fa-solid fa-italic" style="color: #000000;"></i></button>
+                            <button><i class="fa-solid fa-underline" style="color: #000000;"></i></button>
+
+                        </div>
+                        <div class="space-x-5">
+                            <button><i class="fa-solid fa-align-left" style="color: #000000;"></i></button>
+                            <button><i class="fa-solid fa-align-center" style="color: #000000;"></i></button>
+                            <button><i class="fa-solid fa-align-right" style="color: #000000;"></i></button>
+                            <button><i class="fa-solid fa-align-justify" style="color: #000000;"></i></button>
+                        </div>
+                        <div class="space-x-3">
+                            <input class="w-9 rounded-lg" type="number" name="" id="">
+                            <button><i class="fa-solid fa-font" style="color: #000000;"></i></button>
+                            <input type="color" id="favcolor" name="color" value="#ff0000">
+                        </div>
+                    </div>
+                    <hr class="border-2 border-black m-2">
+                </div>
+                <div class="bg-black h-96 m-2">
+                    <textarea class="h-[100%] w-[100%] text-red-600 " name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
         </section>
     </main>
 </body>
