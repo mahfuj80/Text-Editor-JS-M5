@@ -21,32 +21,44 @@
             <div class="border-2 mt-2 border-black">
                 <div class="bg-slate-400 p-4 mt-3 mx-2 border-2 border-black">
                     <div class="flex justify-between mx-9">
-                        <div class="space-x-4">
-                            <button><i class="fa-solid fa-bold" style="color: #000000;"></i></button>
-                            <button><i class="fa-solid fa-italic" style="color: #000000;"></i></button>
-                            <button><i class="fa-solid fa-underline" style="color: #000000;"></i></button>
+                        <div class="space-x-9">
+                            <button class="w-9 h-9 rounded-lg" id="bold"><i class="fa-solid fa-bold"
+                                    style="color: #000000;"></i></button>
+                            <button class="w-9 h-9 rounded-lg" id="italic"><i class="fa-solid fa-italic"
+                                    style="color: #000000;"></i></button>
+                            <button class="w-9 h-9 rounded-lg" id="underline"><i class="fa-solid fa-underline"
+                                    style="color: #000000;"></i></button>
 
                         </div>
-                        <div class="space-x-5">
-                            <button><i class="fa-solid fa-align-left" style="color: #000000;"></i></button>
-                            <button><i class="fa-solid fa-align-center" style="color: #000000;"></i></button>
-                            <button><i class="fa-solid fa-align-right" style="color: #000000;"></i></button>
-                            <button><i class="fa-solid fa-align-justify" style="color: #000000;"></i></button>
+                        <div class="space-x-9">
+                            <button class="w-9 h-9 rounded-lg" id="left"><i class="fa-solid fa-align-left"
+                                    style="color: #000000;"></i></button>
+                            <button class="w-9 h-9 rounded-lg" id="center"><i class="fa-solid fa-align-center"
+                                    style="color: #000000;"></i></button>
+                            <button class="w-9 h-9 rounded-lg" id="right"><i class="fa-solid fa-align-right"
+                                    style="color: #000000;"></i></button>
+                            <button class="w-9 h-9 rounded-lg" id="middle"><i class="fa-solid fa-align-justify"
+                                    style="color: #000000;"></i></button>
                         </div>
-                        <div class="space-x-3">
-                            <input class="w-9 rounded-lg" type="number" name="" id="">
-                            <button><i class="fa-solid fa-font" style="color: #000000;"></i></button>
-                            <input type="color" id="favcolor" name="color" value="#ff0000">
+                        <div class="space-x-9">
+                            <input class="w-9 h-9 rounded-lg" type="number" name="text-size" id="size">
+                            <button class="w-9 h-9 rounded-lg" id="uppercase"><i class="fa-solid fa-font"
+                                    style="color: #000000;"></i></button>
+                            <input type="color" id="color" name="color" value="#000000">
                         </div>
                     </div>
                     <hr class="border-2 border-black m-2">
                 </div>
+                <!-- text-red-600 italic underline font-bold text-center justify-center text-2xl uppercase -->
                 <div class="bg-black h-96 m-2">
-                    <textarea class="h-[100%] w-[100%] text-red-600 " name="" id="" cols="30" rows="10"></textarea>
+                    <textarea class="h-[100%] w-[100%]" name="" id="text" cols="30" rows="10">
+                    </textarea>
                 </div>
             </div>
         </section>
     </main>
+    <script src="./js/utilities.js"></script>
+    <script src="./js/style.js"></script>
 </body>
 
 </html>
